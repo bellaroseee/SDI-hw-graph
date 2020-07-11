@@ -1,0 +1,16 @@
+# Tests that a graph can be created
+
+# Create a graph
+created graph graph1
+
+# Create a graph that is already exist
+
+
+# Create 2 graph
+created graph graph2
+created graph graph3
+
+# Create 3 graph
+created graph graph4
+created graph graph5
+created graph graph6

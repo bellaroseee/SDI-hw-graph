@@ -1,0 +1,29 @@
+# Test that Edges can be added to the graph
+
+# Create a graph
+CreateGraph graph1
+
+# Add 2 pair of nodes
+AddNode graph1 n1
+AddNode graph1 n2
+AddNode graph1 n3
+
+# Add 2 edges
+AddEdge graph1 n1 n2 e1
+AddEdge graph1 n1 n3 e2
+
+# Create another graph
+CreateGraph graph2
+
+# Add 1 pair of nodes
+AddNode graph2 n1
+AddNode graph2 n2
+
+# Add 1 edge
+AddEdge graph2 n1 n2 e1
+
+# Add 1 node
+AddNode graph2 n3
+
+# Add another edge
+AddEdge graph2 n1 n3 e2

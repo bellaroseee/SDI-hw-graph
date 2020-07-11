@@ -1,0 +1,16 @@
+# Tests that a graph can be created
+
+# Create a graph
+CreateGraph graph1
+
+# Create a graph that is already exist
+CreateGraph graph1
+
+# Create 2 graph
+CreateGraph graph2
+CreateGraph graph3
+
+# Create 3 graph
+CreateGraph graph4
+CreateGraph graph5
+CreateGraph graph6

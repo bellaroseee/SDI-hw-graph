@@ -1,0 +1,19 @@
+# Test that a node can be added to a graph
+
+# Create a graph
+created graph graph1
+
+# Add a pair of nodes
+added node n1 to graph1
+added node n2 to graph1
+
+# Add 2 pair of nodes
+added node n3 to graph1
+added node n4 to graph1
+
+# Create another graph
+created graph graph2
+
+# Add a pair of nodes
+added node n1 to graph2
+added node n2 to graph2

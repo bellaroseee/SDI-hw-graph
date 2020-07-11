@@ -1,0 +1,20 @@
+# Test Printing Nodes in a graph
+
+# Create a graph
+CreateGraph graph1
+
+# Add 2 pair of nodes
+AddNode graph1 n1
+AddNode graph1 n2
+AddNode graph1 n3
+
+# Print the Nodes in a graph
+ListNodes graph1
+
+# Add another 2 pair of nodes
+AddNode graph1 n4
+AddNode graph1 n5
+AddNode graph1 n6
+
+# Print the Nodes in a graph
+ListNodes graph1

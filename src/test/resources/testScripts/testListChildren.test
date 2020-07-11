@@ -1,0 +1,29 @@
+# Test Printing outgoing edges from a node
+
+# Create a graph
+CreateGraph graph1
+
+# Add 2 pair of nodes
+AddNode graph1 n1
+AddNode graph1 n2
+AddNode graph1 n3
+
+# Add 2 edges
+AddEdge graph1 n1 n2 e1
+AddEdge graph1 n1 n3 e2
+
+# Print the outgoing edges from n1
+ListChildren graph1 n1
+
+# Add another 2 pair of nodes
+AddNode graph1 n4
+AddNode graph1 n5
+AddNode graph1 n6
+
+# Add another 2 edges
+AddEdge graph1 n4 n5 e3
+AddEdge graph1 n4 n6 e4
+
+# Print the outgoing edges from n1
+ListChildren graph1 n1
+ListChildren graph1 n4

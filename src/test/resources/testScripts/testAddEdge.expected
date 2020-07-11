@@ -1,0 +1,29 @@
+# Test that Edges can be added to the graph
+
+# Create a graph
+created graph graph1
+
+# Add 2 pair of nodes
+added node n1 to graph1
+added node n2 to graph1
+added node n3 to graph1
+
+# Add 2 edges
+added edge e1 from n1 to n2 in graph1
+added edge e2 from n1 to n3 in graph1
+
+# Create another graph
+created graph graph2
+
+# Add 1 pair of nodes
+added node n1 to graph2
+added node n2 to graph2
+
+# Add 1 edge
+added edge e1 from n1 to n2 in graph2
+
+# Add 1 node
+added node n3 to graph2
+
+# Add another edge
+added edge e2 from n1 to n3 in graph2
